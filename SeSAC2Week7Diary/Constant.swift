@@ -19,6 +19,16 @@ struct Constant {
         case chat = "bubble.left.fill"
         case edit = "pencil"
         case story = "quote.closing"
+        
+        case menu = "square.grid.2x2"
+        case down = "chevron.down"
+        case bell = "bell"
+        case smile = "face.smiling"
+        case search = "magnifyingglass"
+        
+        case point = "parkingsign.circle"
+        case coupon = "ticket"
+        case gift = "gift"
+        case heart = "heart"
     }
-    
 }

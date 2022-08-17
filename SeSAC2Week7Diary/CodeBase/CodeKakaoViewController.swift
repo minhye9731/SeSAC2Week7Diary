@@ -98,7 +98,6 @@ class CodeKakaoViewController: UIViewController {
     let lineView: UIView = {
         let view = UIView()
         view.backgroundColor = .lightGray
-        // 도형 height 1로 설정하는 것은 아래 snapkit활용해서 적용 예정
         return view
     }()
     

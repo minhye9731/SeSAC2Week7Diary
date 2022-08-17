@@ -29,6 +29,7 @@
 		0E63A99328ACCB1F001AD9FD /* CodeMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99228ACCB1F001AD9FD /* CodeMusicViewController.swift */; };
 		0E63A99828ACEA89001AD9FD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99728ACEA89001AD9FD /* Constant.swift */; };
 		0E63A99C28ACEDBA001AD9FD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99B28ACEDBA001AD9FD /* UIButton+Extension.swift */; };
+		0E63A99F28AD4097001AD9FD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		0E63A99228ACCB1F001AD9FD /* CodeMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeMusicViewController.swift; sourceTree = "<group>"; };
 		0E63A99728ACEA89001AD9FD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0E63A99B28ACEDBA001AD9FD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				0E63A99B28ACEDBA001AD9FD /* UIButton+Extension.swift */,
+				0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				0E1B53FA28AB1FD100901508 /* ViewController.swift in Sources */,
 				0E1B53F628AB1FD100901508 /* AppDelegate.swift in Sources */,
+				0E63A99F28AD4097001AD9FD /* UIView+Extension.swift in Sources */,
 				0E63A98928AC8C0F001AD9FD /* CodeSnap2ViewController.swift in Sources */,
 				0E1B53F828AB1FD100901508 /* SceneDelegate.swift in Sources */,
 				0E1B543028AB40CA00901508 /* SecondViewController.swift in Sources */,

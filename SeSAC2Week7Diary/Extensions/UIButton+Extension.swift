@@ -17,4 +17,26 @@ extension UIButton.Configuration {
         configuration.buttonSize = .large
         return configuration
     }
+    
+    static func menuButtonStyle(title: String, imageName: String) -> UIButton.Configuration {
+        var configuration = UIButton.Configuration.plain()
+        configuration.baseForegroundColor = .darkGray
+        configuration.baseBackgroundColor = .clear
+        
+        var title = AttributedString.init(title)
+        title.font = .boldSystemFont(ofSize: 14)
+        configuration.attributedTitle = title
+        
+        configuration.image = UIImage(systemName: imageName)
+        configuration.imagePlacement = .leading
+        configuration.imagePadding = 2
+        
+        return configuration
+    }
+    
+    
+    
+    
+    
+    
 }
