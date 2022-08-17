@@ -24,6 +24,9 @@
 		0E63A98528AC81BA001AD9FD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0E63A98428AC81BA001AD9FD /* SnapKit */; };
 		0E63A98728AC822B001AD9FD /* CodeSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A98628AC822B001AD9FD /* CodeSnapViewController.swift */; };
 		0E63A98928AC8C0F001AD9FD /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A98828AC8C0F001AD9FD /* CodeSnap2ViewController.swift */; };
+		0E63A98D28ACCAC9001AD9FD /* CodeKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A98C28ACCAC9001AD9FD /* CodeKakaoViewController.swift */; };
+		0E63A99128ACCAFD001AD9FD /* CodeDeliverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99028ACCAFD001AD9FD /* CodeDeliverViewController.swift */; };
+		0E63A99328ACCB1F001AD9FD /* CodeMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99228ACCB1F001AD9FD /* CodeMusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		0E63A98128AC71AC001AD9FD /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		0E63A98628AC822B001AD9FD /* CodeSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnapViewController.swift; sourceTree = "<group>"; };
 		0E63A98828AC8C0F001AD9FD /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
+		0E63A98C28ACCAC9001AD9FD /* CodeKakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeKakaoViewController.swift; sourceTree = "<group>"; };
+		0E63A99028ACCAFD001AD9FD /* CodeDeliverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDeliverViewController.swift; sourceTree = "<group>"; };
+		0E63A99228ACCB1F001AD9FD /* CodeMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeMusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,9 @@
 				0E63A98128AC71AC001AD9FD /* CodeViewController.swift */,
 				0E63A98628AC822B001AD9FD /* CodeSnapViewController.swift */,
 				0E63A98828AC8C0F001AD9FD /* CodeSnap2ViewController.swift */,
+				0E63A98C28ACCAC9001AD9FD /* CodeKakaoViewController.swift */,
+				0E63A99028ACCAFD001AD9FD /* CodeDeliverViewController.swift */,
+				0E63A99228ACCB1F001AD9FD /* CodeMusicViewController.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -271,9 +280,12 @@
 				0E1B543028AB40CA00901508 /* SecondViewController.swift in Sources */,
 				0E63A98728AC822B001AD9FD /* CodeSnapViewController.swift in Sources */,
 				0E1B543228AB40D200901508 /* ThirdViewController.swift in Sources */,
+				0E63A99128ACCAFD001AD9FD /* CodeDeliverViewController.swift in Sources */,
+				0E63A99328ACCB1F001AD9FD /* CodeMusicViewController.swift in Sources */,
 				0E63A98228AC71AC001AD9FD /* CodeViewController.swift in Sources */,
 				0E1B543428AB415000901508 /* WalkThroughViewController.swift in Sources */,
 				0E1B542E28AB3A9A00901508 /* FirstViewController.swift in Sources */,
+				0E63A98D28ACCAC9001AD9FD /* CodeKakaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
