@@ -30,6 +30,8 @@
 		0E63A99828ACEA89001AD9FD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99728ACEA89001AD9FD /* Constant.swift */; };
 		0E63A99C28ACEDBA001AD9FD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99B28ACEDBA001AD9FD /* UIButton+Extension.swift */; };
 		0E63A99F28AD4097001AD9FD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */; };
+		0E9E4B4128ADDF1000EE5773 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E4B4028ADDF1000EE5773 /* UIViewController+Extension.swift */; };
+		0E9E4B4528ADE60C00EE5773 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E4B4428ADE60C00EE5773 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		0E63A99728ACEA89001AD9FD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0E63A99B28ACEDBA001AD9FD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0E9E4B4028ADDF1000EE5773 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0E9E4B4428ADE60C00EE5773 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				0E1B53F528AB1FD100901508 /* AppDelegate.swift */,
 				0E1B53F728AB1FD100901508 /* SceneDelegate.swift */,
 				0E1B53F928AB1FD100901508 /* ViewController.swift */,
+				0E9E4B4428ADE60C00EE5773 /* ProfileViewController.swift */,
 				0E1B53FB28AB1FD100901508 /* Main.storyboard */,
 				0E1B53FE28AB1FD300901508 /* Assets.xcassets */,
 				0E1B540028AB1FD300901508 /* LaunchScreen.storyboard */,
@@ -184,6 +189,7 @@
 			children = (
 				0E63A99B28ACEDBA001AD9FD /* UIButton+Extension.swift */,
 				0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */,
+				0E9E4B4028ADDF1000EE5773 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,7 +300,9 @@
 				0E1B53F628AB1FD100901508 /* AppDelegate.swift in Sources */,
 				0E63A99F28AD4097001AD9FD /* UIView+Extension.swift in Sources */,
 				0E63A98928AC8C0F001AD9FD /* CodeSnap2ViewController.swift in Sources */,
+				0E9E4B4128ADDF1000EE5773 /* UIViewController+Extension.swift in Sources */,
 				0E1B53F828AB1FD100901508 /* SceneDelegate.swift in Sources */,
+				0E9E4B4528ADE60C00EE5773 /* ProfileViewController.swift in Sources */,
 				0E1B543028AB40CA00901508 /* SecondViewController.swift in Sources */,
 				0E63A98728AC822B001AD9FD /* CodeSnapViewController.swift in Sources */,
 				0E1B543228AB40D200901508 /* ThirdViewController.swift in Sources */,
