@@ -32,6 +32,12 @@
 		0E63A99F28AD4097001AD9FD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */; };
 		0E9E4B4128ADDF1000EE5773 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E4B4028ADDF1000EE5773 /* UIViewController+Extension.swift */; };
 		0E9E4B4528ADE60C00EE5773 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E4B4428ADE60C00EE5773 /* ProfileViewController.swift */; };
+		0EBE3FD028AF1276002F1115 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE3FCF28AF1275002F1115 /* BaseViewController.swift */; };
+		0EBE3FD328AF1446002F1115 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE3FD228AF1446002F1115 /* WriteViewController.swift */; };
+		0EBE3FD528AF169F002F1115 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE3FD428AF169F002F1115 /* BaseView.swift */; };
+		0EBE3FD728AF179C002F1115 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE3FD628AF179B002F1115 /* WriteView.swift */; };
+		0EBE3FDB28AF2CFB002F1115 /* BlackRadiusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE3FDA28AF2CFB002F1115 /* BlackRadiusTextField.swift */; };
+		0EBE3FDF28AF94C7002F1115 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 0EBE3FDE28AF94C7002F1115 /* Toast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +97,11 @@
 		0E63A99E28AD4097001AD9FD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0E9E4B4028ADDF1000EE5773 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		0E9E4B4428ADE60C00EE5773 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0EBE3FCF28AF1275002F1115 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0EBE3FD228AF1446002F1115 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		0EBE3FD428AF169F002F1115 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0EBE3FD628AF179B002F1115 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		0EBE3FDA28AF2CFB002F1115 /* BlackRadiusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRadiusTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBE3FDF28AF94C7002F1115 /* Toast in Frameworks */,
 				0E1B542528AB2C6C00901508 /* SeSAC2UIFramework.framework in Frameworks */,
 				0E63A98528AC81BA001AD9FD /* SnapKit in Frameworks */,
 			);
@@ -127,6 +139,8 @@
 		0E1B53F428AB1FD100901508 /* SeSAC2Week7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				0EBE3FD128AF1422002F1115 /* Diary */,
+				0EBE3FCC28AF125D002F1115 /* Utility */,
 				0E63A99728ACEA89001AD9FD /* Constant.swift */,
 				0E63A99A28ACEDA7001AD9FD /* Extensions */,
 				0E63A97E28AC7196001AD9FD /* CodeBase */,
@@ -194,6 +208,33 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		0EBE3FCC28AF125D002F1115 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE3FD928AF2CDA002F1115 /* CustomView */,
+				0EBE3FCF28AF1275002F1115 /* BaseViewController.swift */,
+				0EBE3FD428AF169F002F1115 /* BaseView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0EBE3FD128AF1422002F1115 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE3FD228AF1446002F1115 /* WriteViewController.swift */,
+				0EBE3FD628AF179B002F1115 /* WriteView.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		0EBE3FD928AF2CDA002F1115 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE3FDA28AF2CFB002F1115 /* BlackRadiusTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,6 +254,7 @@
 			name = SeSAC2Week7Diary;
 			packageProductDependencies = (
 				0E63A98428AC81BA001AD9FD /* SnapKit */,
+				0EBE3FDE28AF94C7002F1115 /* Toast */,
 			);
 			productName = SeSAC2Week7Diary;
 			productReference = 0E1B53F228AB1FD100901508 /* SeSAC2Week7Diary.app */;
@@ -244,6 +286,7 @@
 			mainGroup = 0E1B53E928AB1FD100901508;
 			packageReferences = (
 				0E63A98328AC81BA001AD9FD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0EBE3FDD28AF94C7002F1115 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = 0E1B53F328AB1FD100901508 /* Products */;
 			projectDirPath = "";
@@ -300,6 +343,7 @@
 				0E1B53F628AB1FD100901508 /* AppDelegate.swift in Sources */,
 				0E63A99F28AD4097001AD9FD /* UIView+Extension.swift in Sources */,
 				0E63A98928AC8C0F001AD9FD /* CodeSnap2ViewController.swift in Sources */,
+				0EBE3FD028AF1276002F1115 /* BaseViewController.swift in Sources */,
 				0E9E4B4128ADDF1000EE5773 /* UIViewController+Extension.swift in Sources */,
 				0E1B53F828AB1FD100901508 /* SceneDelegate.swift in Sources */,
 				0E9E4B4528ADE60C00EE5773 /* ProfileViewController.swift in Sources */,
@@ -310,9 +354,13 @@
 				0E63A99C28ACEDBA001AD9FD /* UIButton+Extension.swift in Sources */,
 				0E63A99128ACCAFD001AD9FD /* CodeDeliverViewController.swift in Sources */,
 				0E63A99328ACCB1F001AD9FD /* CodeMusicViewController.swift in Sources */,
+				0EBE3FDB28AF2CFB002F1115 /* BlackRadiusTextField.swift in Sources */,
 				0E63A98228AC71AC001AD9FD /* CodeViewController.swift in Sources */,
+				0EBE3FD728AF179C002F1115 /* WriteView.swift in Sources */,
 				0E1B543428AB415000901508 /* WalkThroughViewController.swift in Sources */,
 				0E1B542E28AB3A9A00901508 /* FirstViewController.swift in Sources */,
+				0EBE3FD528AF169F002F1115 /* BaseView.swift in Sources */,
+				0EBE3FD328AF1446002F1115 /* WriteViewController.swift in Sources */,
 				0E63A98D28ACCAC9001AD9FD /* CodeKakaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +589,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		0EBE3FDD28AF94C7002F1115 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -548,6 +604,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0E63A98328AC81BA001AD9FD /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		0EBE3FDE28AF94C7002F1115 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EBE3FDD28AF94C7002F1115 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
